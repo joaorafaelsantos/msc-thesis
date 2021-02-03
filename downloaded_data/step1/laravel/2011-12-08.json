@@ -1,0 +1,70 @@
+{
+  "org": {
+    "gravatar_id": "94305630bd933660cf2597c0f9c548d4",
+    "url": "https://api.github.dev/orgs/laravel",
+    "avatar_url": "https://secure.gravatar.com/avatar/94305630bd933660cf2597c0f9c548d4?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-org-420.png",
+    "id": 958072,
+    "login": "laravel"
+  },
+  "type": "IssueCommentEvent",
+  "repo": {
+    "url": "https://api.github.dev/repos/laravel/laravel",
+    "id": 1863329,
+    "name": "laravel/laravel"
+  },
+  "created_at": "2011-12-08T14:45:28Z",
+  "payload": {
+    "issue": {
+      "state": "open",
+      "created_at": "2011-12-08T14:06:12Z",
+      "updated_at": "2011-12-08T14:45:28Z",
+      "comments": 3,
+      "user": {
+        "gravatar_id": "fd3e5171cbc1f277daacacef4967bceb",
+        "id": 243893,
+        "url": "https://api.github.com/users/sparksp",
+        "avatar_url": "https://secure.gravatar.com/avatar/fd3e5171cbc1f277daacacef4967bceb?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+        "login": "sparksp"
+      },
+      "body": "`Request::route()->handles('/hash/laravel')` returns false with route `GET /hash/(:any)` but I'd expect it to return true, since the route does handle the URL I queried.",
+      "assignee": null,
+      "id": 2487825,
+      "number": 206,
+      "pull_request": {
+        "patch_url": null,
+        "html_url": null,
+        "diff_url": null
+      },
+      "labels": [],
+      "title": "Extend Request::route()->handles() to handle wildcards",
+      "html_url": "https://github.com/laravel/laravel/issues/206",
+      "closed_at": null,
+      "url": "https://api.github.com/repos/laravel/laravel/issues/206",
+      "milestone": null
+    },
+    "action": "created",
+    "comment": {
+      "created_at": "2011-12-08T14:45:28Z",
+      "updated_at": "2011-12-08T14:45:28Z",
+      "user": {
+        "gravatar_id": "fd3e5171cbc1f277daacacef4967bceb",
+        "id": 243893,
+        "url": "https://api.github.com/users/sparksp",
+        "avatar_url": "https://secure.gravatar.com/avatar/fd3e5171cbc1f277daacacef4967bceb?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+        "login": "sparksp"
+      },
+      "body": "I was actually after a method that can tell me if where I am is an ancestor of a given URL when I came across this.  I ended up with https://gist.github.com/1447157",
+      "id": 3063119,
+      "url": "https://api.github.com/repos/laravel/laravel/issues/comments/3063119"
+    }
+  },
+  "actor": {
+    "gravatar_id": "fd3e5171cbc1f277daacacef4967bceb",
+    "url": "https://api.github.dev/users/sparksp",
+    "avatar_url": "https://secure.gravatar.com/avatar/fd3e5171cbc1f277daacacef4967bceb?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "id": 243893,
+    "login": "sparksp"
+  },
+  "public": true,
+  "id": "1503988881"
+}
