@@ -1,16 +1,19 @@
 [tool.poetry]
 name = "dissertation"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
-authors = ["João Santos <joao.santos@pocket-lint.co.uk>"]
+authors = ["João Santos <up201809187@fe.up.pt>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-numpy = "^1.20.0"
+python = "^3.8"
 requests = "^2.25.1"
+jupyterlab = "^3.0.7"
+numpy = "^1.20.1"
+python-dateutil = "^2.8.1"
 scipy = "^1.6.0"
 matplotlib = "^3.3.4"
-jupyterlab = "^3.0.6"
+python-dotenv = "^0.15.0"
+argparse = "^1.4.0"
 
 [tool.poetry.dev-dependencies]
 
