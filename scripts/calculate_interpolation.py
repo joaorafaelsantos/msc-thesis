@@ -1,3 +1,4 @@
+import argparse
 import os
 import json
 import scipy.interpolate
@@ -5,23 +6,18 @@ from datetime import datetime
 import numpy as np
 import shutil
 
-repos = [
-    {
-        "name": "vue"
-    },
-    {
-        "name": "react"
-    },
-    # {
-    #     "name": "angular"
-    # },
-    # {
-    #     "name": "laravel"
-    # },
-    # {
-    #     "name": "next.js"
-    # },
-]
+# Arguments processing (repo info - id, owner and name)
+parser = argparse.ArgumentParser(
+    description="Calculate interpolation of missing repo events"
+)
+parser.add_argument("--id", help="ID of the repo (e.g. 10270250)", default="10270250")
+parser.add_argument(
+    "--owner", help="Owner of the repo (e.g. facebook)", default="facebook"
+)
+parser.add_argument("--name", help="Name of the repo (e.g. react)", default="react")
+args = parser.parse_args()
+
+repo = {"id": args.id, "owner": args.owner, "name": args.name}
 
 
 def get_event_from_file(file):
@@ -35,17 +31,20 @@ def get_rounded_int(num):
 
 def save_parsed_event_to_file(parsed_event, file):
     os.makedirs(os.path.dirname(file), exist_ok=True)
-    with open(file, 'w') as save_file:
+    with open(file, "w") as save_file:
         json.dump(parsed_event, save_file)
 
 
-for repo in repos:
-    # copy files
-    shutil.copytree(f"downloaded_data/step2/{repo['name']}", f"downloaded_data/step3/{repo['name']}",
-                    ignore=shutil.ignore_patterns("interpolation"))
+# copy files
+shutil.copytree(
+    f"data/standardised/{repo['name']}",
+    f"data/interpolation/{repo['name']}",
+    ignore=shutil.ignore_patterns("interpolation"),
+)
 
-    # interpolation data
-    directory = f"downloaded_data/step2/{repo['name']}/interpolation"
+# interpolation data
+directory = f"data/standardised/{repo['name']}/interpolation"
+if os.path.isdir(directory):
     for folder_name in os.listdir(directory):
         points = {
             "dates": [],
@@ -53,13 +52,13 @@ for repo in repos:
             "size": [],
             "stargazers": [],
             "forks": [],
-            "open_issues": []
+            "open_issues": [],
         }
         for i, file_name in enumerate(sorted(os.listdir(f"{directory}/{folder_name}"))):
-            save_directory = f"downloaded_data/step3/{repo['name']}"
+            save_directory = f"data/interpolation/{repo['name']}"
             event = get_event_from_file(f"{directory}/{folder_name}/{file_name}")
 
-            date = datetime.strptime(file_name.removesuffix(".json"), "%Y-%m-%d")
+            date = datetime.strptime(file_name[:-5], "%Y-%m-%d")
             points["dates"].append(date)
             points["size"].append(event["size"])
             points["stargazers"].append(event["stargazers"])
@@ -80,8 +79,8 @@ for repo in repos:
             "size": get_rounded_int(size(delta2.days)),
             "stargazers": get_rounded_int(stargazers(delta2.days)),
             "forks": get_rounded_int(forks(delta2.days)),
-            "open_issues": get_rounded_int(open_issues(delta2.days))
+            "open_issues": get_rounded_int(open_issues(delta2.days)),
         }
 
-        save_directory = f"downloaded_data/step3/{repo['name']}"
+        save_directory = f"data/interpolation/{repo['name']}"
         save_parsed_event_to_file(event, f"{save_directory}/{folder_name}.json")
