@@ -19,7 +19,7 @@ repo = {"id": args.id, "owner": args.owner, "name": args.name}
 
 # event types to extract and maximum date to crawl
 allowed_event_types = ["PullRequestEvent", "PullRequestReviewCommentEvent"]
-end_date = datetime.strptime("2020-12-31T14:46:03Z", "%Y-%m-%dT%H:%M:%SZ")
+end_date = datetime.strptime("2021-04-30T14:46:03Z", "%Y-%m-%dT%H:%M:%SZ")
 
 
 def get_events_with_metrics(event, repo_id, date):
