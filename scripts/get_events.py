@@ -23,6 +23,7 @@ end_date = datetime.strptime("2020-12-31T14:46:03Z", "%Y-%m-%dT%H:%M:%SZ")
 
 
 def get_events_with_metrics(event, repo_id, date):
+    repo_id = int(repo_id)
     if date <= datetime(2014, 12, 31):
         if (
             "repository" in event
