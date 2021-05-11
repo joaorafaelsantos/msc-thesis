@@ -1,5 +1,6 @@
 import argparse
 import os
+import requests
 import json
 from datetime import datetime
 
@@ -28,7 +29,21 @@ def save_parsed_event_to_file(parsed_event, file):
         json.dump(parsed_event, save_file)
 
 
-repo_events = []
+url = f"https://api.github.com/repos/{repo['owner']}/{repo['name']}"
+
+payload = requests.get(url)
+created_at = payload.json()["created_at"]
+created_at = datetime.strptime(created_at, "%Y-%m-%dT%H:%M:%SZ")
+created_at = created_at.strftime('%Y-%m-%d')
+
+repo_events = [{
+    "size": 0,
+    "stargazers": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "date": created_at
+}]
+
 directory = f"data/interpolation/{repo['name']}"
 for file_name in os.listdir(directory):
     if file_name.endswith(".json"):
