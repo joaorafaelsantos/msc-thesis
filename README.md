@@ -1,1 +1,45 @@
-# dissertation
+# Documentation patterns for open source web frameworks
+
+## Requirements
+
+* Python 3.5+
+* <a href="https://python-poetry.org/docs/">Poetry</a>
+
+## Installation
+
+```shell
+poetry install
+```
+## Metrics:
+1. **Get events:**
+
+   ```shell
+   poetry run python3 scripts/get_events.py --id 11730342 --owner vuejs --name vue
+   ```
+
+2. **Standardize the events:**
+
+    ```shell
+    poetry run python3 scripts/standardise_data.py --id 11730342 --owner vuejs --name vue
+    ```
+    
+3. **Calculate interpolation:**
+
+    ```shell
+    poetry run python3 scripts/standardise_data.py --id 11730342 --owner vuejs --name vue
+    ```
+
+ 4. **Join previous events with interpolated events:**
+
+    ```shell
+    poetry run python3 scripts/join_files.py --id 11730342 --owner vuejs --name vue
+    ```
+
+### Notes:
+* Lower bound: Repository creation date
+* Upper bound: 2021-04-30
+* Step-value: 3 months.
+* The final JSON files are located in ```/data/final/{repository_name}.json```
+* The data is downloaded from <a href="https://www.gharchive.org/">GH Archive</a>
+
+## Visualization (WIP)
