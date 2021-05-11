@@ -1,156 +1,177 @@
 [
-    {
-        "size": 1096,
-        "stargazers": 123,
-        "forks": 4,
-        "open_issues": 15,
-        "date": "2015-08-21"
-    },
-    {
-        "size": 1119,
-        "stargazers": 1804,
-        "forks": 59,
-        "open_issues": 37,
-        "date": "2015-11-21"
-    },
-    {
-        "size": 1267,
-        "stargazers": 2161,
-        "forks": 85,
-        "open_issues": 28,
-        "date": "2016-02-21"
-    },
-    {
-        "size": 1463,
-        "stargazers": 2780,
-        "forks": 135,
-        "open_issues": 43,
-        "date": "2016-05-21"
-    },
-    {
-        "size": 1655,
-        "stargazers": 4535,
-        "forks": 210,
-        "open_issues": 55,
-        "date": "2016-08-21"
-    },
-    {
-        "size": 60631,
-        "stargazers": 6300,
-        "forks": 316,
-        "open_issues": 92,
-        "date": "2016-11-21"
-    },
-    {
-        "size": 78015,
-        "stargazers": 7969,
-        "forks": 407,
-        "open_issues": 111,
-        "date": "2017-02-21"
-    },
-    {
-        "size": 98420,
-        "stargazers": 9372,
-        "forks": 535,
-        "open_issues": 158,
-        "date": "2017-05-21"
-    },
-    {
-        "size": 138779,
-        "stargazers": 12612,
-        "forks": 798,
-        "open_issues": 273,
-        "date": "2017-08-21"
-    },
-    {
-        "size": 248926,
-        "stargazers": 15153,
-        "forks": 1180,
-        "open_issues": 489,
-        "date": "2017-11-21"
-    },
-    {
-        "size": 315491,
-        "stargazers": 18988,
-        "forks": 1646,
-        "open_issues": 500,
-        "date": "2018-02-21"
-    },
-    {
-        "size": 342344,
-        "stargazers": 21751,
-        "forks": 2094,
-        "open_issues": 736,
-        "date": "2018-05-21"
-    },
-    {
-        "size": 373020,
-        "stargazers": 24752,
-        "forks": 2700,
-        "open_issues": 1025,
-        "date": "2018-08-21"
-    },
-    {
-        "size": 522167,
-        "stargazers": 27977,
-        "forks": 3556,
-        "open_issues": 855,
-        "date": "2018-11-21"
-    },
-    {
-        "size": 587388,
-        "stargazers": 31827,
-        "forks": 4273,
-        "open_issues": 557,
-        "date": "2019-02-21"
-    },
-    {
-        "size": 543217,
-        "stargazers": 34829,
-        "forks": 5015,
-        "open_issues": 511,
-        "date": "2019-05-21"
-    },
-    {
-        "size": 628839,
-        "stargazers": 37393,
-        "forks": 5783,
-        "open_issues": 637,
-        "date": "2019-08-21"
-    },
-    {
-        "size": 667680,
-        "stargazers": 40195,
-        "forks": 6690,
-        "open_issues": 639,
-        "date": "2019-11-21"
-    },
-    {
-        "size": 753304,
-        "stargazers": 42356,
-        "forks": 7350,
-        "open_issues": 730,
-        "date": "2020-02-21"
-    },
-    {
-        "size": 769383,
-        "stargazers": 44493,
-        "forks": 8078,
-        "open_issues": 813,
-        "date": "2020-05-21"
-    },
-    {
-        "size": 815616,
-        "stargazers": 46497,
-        "forks": 8666,
-        "open_issues": 820,
-        "date": "2020-08-21"
-    },
-    {
-        "size": 826788,
-        "stargazers": 47889,
-        "forks": 9066,
-        "open_issues": 573,
-        "date": "2020-11-21"
-    }
+  {
+    "size": 0,
+    "stargazers": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "date": "2015-05-21"
+  },
+  {
+    "size": 1096,
+    "stargazers": 123,
+    "forks": 4,
+    "open_issues": 15,
+    "date": "2015-08-21"
+  },
+  {
+    "size": 1119,
+    "stargazers": 1804,
+    "forks": 59,
+    "open_issues": 37,
+    "date": "2015-11-21"
+  },
+  {
+    "size": 1267,
+    "stargazers": 2161,
+    "forks": 85,
+    "open_issues": 28,
+    "date": "2016-02-21"
+  },
+  {
+    "size": 1463,
+    "stargazers": 2780,
+    "forks": 135,
+    "open_issues": 43,
+    "date": "2016-05-21"
+  },
+  {
+    "size": 1655,
+    "stargazers": 4535,
+    "forks": 210,
+    "open_issues": 55,
+    "date": "2016-08-21"
+  },
+  {
+    "size": 60631,
+    "stargazers": 6300,
+    "forks": 316,
+    "open_issues": 92,
+    "date": "2016-11-21"
+  },
+  {
+    "size": 78015,
+    "stargazers": 7969,
+    "forks": 407,
+    "open_issues": 111,
+    "date": "2017-02-21"
+  },
+  {
+    "size": 98420,
+    "stargazers": 9372,
+    "forks": 535,
+    "open_issues": 158,
+    "date": "2017-05-21"
+  },
+  {
+    "size": 138779,
+    "stargazers": 12612,
+    "forks": 798,
+    "open_issues": 273,
+    "date": "2017-08-21"
+  },
+  {
+    "size": 248926,
+    "stargazers": 15153,
+    "forks": 1180,
+    "open_issues": 489,
+    "date": "2017-11-21"
+  },
+  {
+    "size": 315491,
+    "stargazers": 18988,
+    "forks": 1646,
+    "open_issues": 500,
+    "date": "2018-02-21"
+  },
+  {
+    "size": 342344,
+    "stargazers": 21751,
+    "forks": 2094,
+    "open_issues": 736,
+    "date": "2018-05-21"
+  },
+  {
+    "size": 373020,
+    "stargazers": 24752,
+    "forks": 2700,
+    "open_issues": 1025,
+    "date": "2018-08-21"
+  },
+  {
+    "size": 522167,
+    "stargazers": 27977,
+    "forks": 3556,
+    "open_issues": 855,
+    "date": "2018-11-21"
+  },
+  {
+    "size": 587388,
+    "stargazers": 31827,
+    "forks": 4273,
+    "open_issues": 557,
+    "date": "2019-02-21"
+  },
+  {
+    "size": 543217,
+    "stargazers": 34829,
+    "forks": 5015,
+    "open_issues": 511,
+    "date": "2019-05-21"
+  },
+  {
+    "size": 628839,
+    "stargazers": 37393,
+    "forks": 5783,
+    "open_issues": 637,
+    "date": "2019-08-21"
+  },
+  {
+    "size": 667680,
+    "stargazers": 40195,
+    "forks": 6690,
+    "open_issues": 639,
+    "date": "2019-11-21"
+  },
+  {
+    "size": 753304,
+    "stargazers": 42356,
+    "forks": 7350,
+    "open_issues": 730,
+    "date": "2020-02-21"
+  },
+  {
+    "size": 769383,
+    "stargazers": 44493,
+    "forks": 8078,
+    "open_issues": 813,
+    "date": "2020-05-21"
+  },
+  {
+    "size": 815616,
+    "stargazers": 46497,
+    "forks": 8666,
+    "open_issues": 820,
+    "date": "2020-08-21"
+  },
+  {
+    "size": 826788,
+    "stargazers": 47889,
+    "forks": 9066,
+    "open_issues": 573,
+    "date": "2020-11-21"
+  },
+  {
+    "size": 858297,
+    "stargazers": 49105,
+    "forks": 9303,
+    "open_issues": 605,
+    "date": "2021-02-21"
+  },
+  {
+    "size": 890412,
+    "stargazers": 50104,
+    "forks": 9516,
+    "open_issues": 567,
+    "date": "2021-04-30"
+  }
 ]
