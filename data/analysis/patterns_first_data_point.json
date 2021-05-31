@@ -1,0 +1,362 @@
+[
+  {
+    "id": "documentation_roadmap",
+    "name": "Documentation Roadmap",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": 173,
+        "stars": 2554,
+        "forks": 303
+      },
+      {
+        "name": "Vue.js",
+        "days": 193,
+        "stars": 162,
+        "forks": 10
+      },
+      {
+        "name": "Angular",
+        "days": 168,
+        "stars": 1687,
+        "forks": 378
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": 418,
+        "stars": 2612,
+        "forks": 670
+      },
+      {
+        "name": "Gatsby",
+        "days": 62,
+        "stars": 83,
+        "forks": 3
+      }
+    ]
+  },
+  {
+    "id": "framework_overview",
+    "name": "Framework Overview",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": 173,
+        "stars": 2554,
+        "forks": 303
+      },
+      {
+        "name": "Vue.js",
+        "days": 193,
+        "stars": 162,
+        "forks": 10
+      },
+      {
+        "name": "Angular",
+        "days": 168,
+        "stars": 1687,
+        "forks": 378
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": 418,
+        "stars": 2612,
+        "forks": 670
+      },
+      {
+        "name": "Gatsby",
+        "days": 62,
+        "stars": 83,
+        "forks": 3
+      }
+    ]
+  },
+  {
+    "id": "cookbook_and_recipes",
+    "name": "Cookbook and Recipes",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Vue.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Angular",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": 418,
+        "stars": 2612,
+        "forks": 670
+      },
+      {
+        "name": "Gatsby",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      }
+    ]
+  },
+  {
+    "id": "graded_examples",
+    "name": "Graded Examples",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": 173,
+        "stars": 2554,
+        "forks": 303
+      },
+      {
+        "name": "Vue.js",
+        "days": 193,
+        "stars": 162,
+        "forks": 10
+      },
+      {
+        "name": "Angular",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": 418,
+        "stars": 2612,
+        "forks": 670
+      },
+      {
+        "name": "Gatsby",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      }
+    ]
+  },
+  {
+    "id": "customization_points",
+    "name": "Customization Points",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": 173,
+        "stars": 2554,
+        "forks": 303
+      },
+      {
+        "name": "Vue.js",
+        "days": 193,
+        "stars": 162,
+        "forks": 10
+      },
+      {
+        "name": "Angular",
+        "days": 168,
+        "stars": 1687,
+        "forks": 378
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": 418,
+        "stars": 2612,
+        "forks": 670
+      },
+      {
+        "name": "Gatsby",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      }
+    ]
+  },
+  {
+    "id": "design_internals",
+    "name": "Design Internals",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": 173,
+        "stars": 2554,
+        "forks": 303
+      },
+      {
+        "name": "Vue.js",
+        "days": 193,
+        "stars": 162,
+        "forks": 10
+      },
+      {
+        "name": "Angular",
+        "days": 168,
+        "stars": 1687,
+        "forks": 378
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": 418,
+        "stars": 2612,
+        "forks": 670
+      },
+      {
+        "name": "Gatsby",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      }
+    ]
+  },
+  {
+    "id": "contribution_guidelines",
+    "name": "Contribution Guidelines",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": -1,
+        "stars": 50871,
+        "forks": 8992
+      },
+      {
+        "name": "Vue.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Angular",
+        "days": 168,
+        "stars": 1687,
+        "forks": 378
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": 418,
+        "stars": 2612,
+        "forks": 670
+      },
+      {
+        "name": "Gatsby",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      }
+    ]
+  },
+  {
+    "id": "migration_handbook",
+    "name": "Migration Handbook",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Vue.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Angular",
+        "days": -1,
+        "stars": 11054,
+        "forks": 2874
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Gatsby",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      }
+    ]
+  },
+  {
+    "id": "documentation_versioning",
+    "name": "Documentation Versioning",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Vue.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Angular",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Gatsby",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      }
+    ]
+  },
+  {
+    "id": "multilanguage_support",
+    "name": "Multi-language Support",
+    "projects": [
+      {
+        "name": "React.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Vue.js",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Angular",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "ASP.NET Core",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      },
+      {
+        "name": "Gatsby",
+        "days": -1,
+        "stars": -1,
+        "forks": -1
+      }
+    ]
+  }
+]
