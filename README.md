@@ -1,8 +1,8 @@
-# Documentation patterns for open source web frameworks
+# Patterns for Documenting Open Source Web Frameworks
 
 ## Requirements
 
-* Python 3.5+
+* Python 3.6+
 * <a href="https://python-poetry.org/docs/">Poetry</a>
 
 ## Installation
