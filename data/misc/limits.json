@@ -1,0 +1,23 @@
+{
+  "days": {
+    "Angular": 2416,
+    "ASP.NET Core": 2607,
+    "Gatsby": 2171,
+    "React.js": 2898,
+    "Vue.js": 2832
+  },
+  "stars": {
+    "Angular": 72827,
+    "ASP.NET Core": 22016,
+    "Gatsby": 50104,
+    "React.js": 182717,
+    "Vue.js": 167704
+  },
+  "forks": {
+    "Angular": 19084,
+    "ASP.NET Core": 6271,
+    "Gatsby": 9516,
+    "React.js": 33747,
+    "Vue.js": 28868
+  }
+}
