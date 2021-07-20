@@ -42,4 +42,9 @@ poetry install
 * The final JSON files are located in ```/data/final/{repository_name}.json```
 * The data is downloaded from <a href="https://www.gharchive.org/">GH Archive</a>
 
-## Visualization (WIP)
+## Visualization:
+* The visualization notebooks (pattern adoption analysis and repository metrics) are located in ```/notebooks/```.
+
+## Related documents:
+* [MSc Thesis](https://www.google.com)
+* [A Review of Pattern Languages for Software Documentation](https://doi.org/10.1145/3424771.3424786)
