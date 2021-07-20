@@ -46,5 +46,4 @@ poetry install
 * The visualization notebooks (pattern adoption analysis and repository metrics) are located in ```/notebooks/```.
 
 ## Related documents:
-* [MSc Thesis](https://www.google.com)
 * [A Review of Pattern Languages for Software Documentation](https://doi.org/10.1145/3424771.3424786)
