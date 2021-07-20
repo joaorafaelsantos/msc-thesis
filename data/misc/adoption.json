@@ -9,7 +9,7 @@
     "contribution_guidelines": "2015-03-05",
     "migration_handbook": "2016-04-21",
     "documentation_versioning": "2017-06-21",
-    "multi-language_support": "2016-09-15"
+    "multi_language_support": "2016-09-15"
   },
   "ASP.NET Core": {
     "documentation_roadmap": "2015-05-03",
@@ -21,7 +21,7 @@
     "contribution_guidelines": "2015-05-03",
     "migration_handbook": "2015-09-27",
     "documentation_versioning": "2015-09-27",
-    "multi-language_support": "2017-08-07"
+    "multi_language_support": "2017-08-07"
   },
   "Gatsby": {
     "documentation_roadmap": "2015-07-22",
@@ -33,7 +33,7 @@
     "contribution_guidelines": "2016-05-31",
     "migration_handbook": "2018-10-19",
     "documentation_versioning": "2021-04-30",
-    "multi-language_support": ""
+    "multi_language_support": ""
   },
   "React.js": {
     "documentation_roadmap": "2013-11-13",
@@ -45,7 +45,7 @@
     "contribution_guidelines": "2016-10-04",
     "migration_handbook": "",
     "documentation_versioning": "2018-08-04",
-    "multi-language_support": "2019-07-03"
+    "multi_language_support": "2019-07-03"
   },
   "Vue.js": {
     "documentation_roadmap": "2014-02-07",
@@ -57,6 +57,6 @@
     "contribution_guidelines": "2016-05-08",
     "migration_handbook": "2016-10-21",
     "documentation_versioning": "2015-06-17",
-    "multi-language_support": "2015-06-17"
+    "multi_language_support": "2015-06-17"
   }
 }
