@@ -1,4 +1,4 @@
-# Patterns for Documenting Open Source Web Frameworks
+# Patterns for Documenting Open Source Frameworks
 
 ## Requirements
 
