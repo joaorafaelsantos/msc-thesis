@@ -48,4 +48,4 @@ poetry install
 ## Related documents:
 * [A Review of Pattern Languages for Software Documentation](https://doi.org/10.1145/3424771.3424786) (EuroPLoP '20)
 * [Patterns for Documenting Open Source Frameworks](https://hdl.handle.net/10216/135711) (Thesis)
-* Patterns for Documenting Open Source Frameworks (PLoP'21)
+* [Patterns for Documenting Open Source Frameworks](https://doi.org/10.48550/arXiv.2203.13871) (PLoP'21)
